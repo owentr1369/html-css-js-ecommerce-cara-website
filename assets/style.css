@@ -47,6 +47,18 @@ button.normal {
   outline: none;
   transition: 0.2s;
 }
+button.white {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 18px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
 body {
   width: 100%;
 }
@@ -270,4 +282,47 @@ body {
 #banner button:hover {
   background: #088178;
   color: #fff;
+}
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("./img/banner/b17.jpg");
+  min-width: 580px;
+  width: 46%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner .banner-box2 {
+  background-image: url("./img/banner/b10.jpg");
+}
+#sm-banner .banner-box:hover button {
+  background-color: #088178;
+  color: #fff;
+  border: 1px solid #088178;
+}
+#sm-banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+#sm-banner h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+#sm-banner span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 15px;
 }
